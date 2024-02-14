@@ -2,11 +2,9 @@
 
 This will host a local website containing the ascii-art project.
 
-Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII.
+Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII, this project was originally made for kood / Johvi.
 
 ## Usage
-
-Follow the audit instructions here: https://01.kood.tech/git/root/public/src/commit/62dd25e7ae2b727061c9eaeb12057d72dc3c1426/subjects/ascii-art-web
 
 Syntax:
 
