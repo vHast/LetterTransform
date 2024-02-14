@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascii-art-web | kood/Jõhvi</title>
+    <link rel="stylesheet" type="text/css" href="/static/style/style.css">
+    <script src="https://kit.fontawesome.com/65163fd434.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="/static/images/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <section id="header">
+        <h1>ascii-art-web</h1>
+        <h2>A project for <span>kood/Jõhvi</span></h2>
+        <h3>Federico Alvarez | vHast @ GitHub</h3>
+        <a href="https://github.com/vHast"><i class="fa fa-github"></i></a>
+    </section>
+
+    <section id="program">
+
+        <form action="/submit" method="POST">
+            <textarea name="message" id="" cols="50" rows="4"></textarea>
+            <div class="radiobtns" name="fontsButton">
+                <input type="radio" id="standardRadio" name="radioGroup" checked="checked" value="standard">
+                <label for="standardRadio">Standard</label>
+                <input type="radio" id="shadowRadio" name="radioGroup" value="shadow">
+                <label for="shadowRadio">Shadow</label>
+                <input type="radio" id="thinkertoyRadio" name="radioGroup" value="thinkertoy">
+                <label for="thinkertoyRadio">Thinkertoy</label>
+            </div>            
+            <input type="submit" id="submit-btn" value="Submit">
+        </form>
+    </section>
+    <pre id="output">{{.OutputHTML}}</pre>
+    
+</body>
+</html>
