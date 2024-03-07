@@ -1,6 +1,6 @@
-# ascii-art-web
+# LetterTransform
 
-This will host a local website containing the ascii-art project.
+This will host a local website containing the LetterTransform
 
 Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII, this project was originally made for kood / Johvi.
 
